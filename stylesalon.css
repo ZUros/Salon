@@ -35,3 +35,33 @@
 h4 {
     text-align: center;
 }
+
+.input {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.username {
+    width: 25%;
+    margin-bottom: 20px;
+}
+
+.phone {
+    width: 25%;
+    margin-bottom: 20px;
+}
+
+.termin {
+    width: 25%;
+    margin-bottom: 20px;
+}
+
+.ostalo {
+    width: 25%;
+    height: auto;
+}
+
+.ostalo input {
+    height: 100px;
+}
+
