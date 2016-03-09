@@ -1,0 +1,33 @@
+.carousel-inner img {
+  margin: auto;    
+}
+
+.carousel-inner {
+  height: 400px;
+  width: auto;
+  overflow: hidden;
+}
+
+.container {
+    padding: 20px;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;    
+}
+
+
+.panel1 {
+    float: left;
+    display: block;    
+}
+
+.panel2 {
+    float: center;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.panel3 {
+    float: right; 
+    display: block;
+}
