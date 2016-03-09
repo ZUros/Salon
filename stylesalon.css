@@ -31,3 +31,7 @@
     float: right; 
     display: block;
 }
+
+h4 {
+    text-align: center;
+}
