@@ -1,3 +1,4 @@
+
 .carousel-inner img {
   margin: auto;    
 }
@@ -9,69 +10,79 @@
 }
 
 .container {
-    padding: 20px;
-    text-align: center;
-    padding-left: 10%;
-    padding-right: 10%;    
+     width: 100%;
+     text-align: center;
 }
 
 
 .panel1 {
-    float: left;
-    display: block;    
+    background-color: black;
+    display: inline-block;
+    margin-right: 30px;
 }
 
 .panel2 {
-    float: center;
+    background-color: black;
     display: inline-block;
-    margin: 0 auto;
+    margin-right: 30px;
 }
 
 .panel3 {
-    float: right; 
-    display: block;
+    background-color: black; 
+    display: inline-block;
 }
 
 h4 {
+    width: 100%;
+    text-align: center;
+}
+
+.narocise {
     text-align: center;
 }
 
 .input {
-    width: 70%;
-    margin: 0 auto;
-    margin-bottom: 50px;
+    width: 30%;
+    display: inline-block;
+    height: 350px;
 }
 
 .username {
-    width: 40%;
     margin-bottom: 20px;
 }
 
 .phone {
-    width: 40%;
     margin-bottom: 20px;
 }
 
 .termin {
-    width: 40%;
     margin-bottom: 20px;
 }
 
 .ostalo {
-    width: 40%;
-    height: auto;
+    width: 100%; 
 }
 
 .ostalo input {
     height: 100px;
 }
 
-.table {
-   width: 40%;
-   float: right;
-   position: relative;
-    top: -300px;
-    border: 3px solid #e6e6e6;
+.tabela {
+    margin-left: 5%;
+    padding-top: 25px;
+    height: 350px;
+    width: 25%;
+    display: inline-block;
+}
+
+table {
+ width: 50%;
+ border: 2px solid #ddd;
+ text-align: center;    
+}
+
+.noga {
+   text-align: center; 
 }
 
 .kontakt h4 {
@@ -79,15 +90,20 @@ h4 {
 }
 
 .kontakt {
-    padding-top: 1px;
-    padding-left: 5px;
-    width: 70%;
-    margin: 0 auto;
-    background-color: beige;
+    text-align: left;
+    height: 200px;
+    width: 30%;
+    display: inline-block;
+}
+
+.navigacija h4 {
+    text-align: left;
 }
 
 .navigacija {
-    float: right;
-    position: relative;
-    top: -210px;
+   float: right;    
+   text-align: left;    
+   width: 30%;
+   height: 200px;    
+   display: inline-block;    
 }
